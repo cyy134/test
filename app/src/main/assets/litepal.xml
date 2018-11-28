@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Litepal>
+    <dbname value="db_learnE"></dbname>
+    <version value="1"></version>
+    <list>
+        <mapping class="com.example.cyy12.learne.db.Usertable"/><!-- 祖册用户表 -->
+        <mapping class="com.example.cyy12.learne.db.Rwordstable "></mapping><!-- 注册复习单词表-->
+        <mapping class="com.example.cyy12.learne.db.Nwordstable "/><!-- 注册生词表-->
+        <mapping class="com.example.cyy12.learne.db.FourWordstable "/><!-- 注册四级单词表-->
+        <mapping class="com.example.cyy12.learne.db.SixWordstable"/><!-- 注册六级单词库-->
+    </list>
+</Litepal>
